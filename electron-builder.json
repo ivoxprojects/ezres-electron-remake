@@ -1,0 +1,14 @@
+{
+  "productName": "ezres",
+  "directories": {
+    "output": "dist"
+  },
+  "win": {
+    "target": "nsis",
+    "icon": "ico.ico"
+  },
+  "nsis": {
+    "allowToChangeInstallationDirectory": true,
+    "oneClick": false
+  }
+}
