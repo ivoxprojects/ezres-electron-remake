@@ -1,2 +1,3 @@
 # ezres-electron-remake
-ezres remake in electron
+###This is a remake of the original app ezres
+eriginal repo [here](https://github.com/ivoxprojects/ezres)
