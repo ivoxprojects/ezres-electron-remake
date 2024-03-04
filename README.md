@@ -3,10 +3,10 @@
 eriginal repo [here](https://github.com/ivoxprojects/ezres)
 
 Packages needed:
-npm i electron --save-dev
-npm i electron-builder
-npm i configparser
+- npm i electron --save-dev
+- npm i electron-builder
+- npm i configparser
 
 build command:
-npm run build
-npx electron-builder
+- npm run build
+- npx electron-builder
