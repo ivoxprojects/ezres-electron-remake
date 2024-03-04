@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined">
+
+    <link rel="stylesheet" href="styles/theme.css">
+    <link rel="stylesheet" href="styles/switch.css">
+
+    <title>ezres</title>
+</head>
+<body>
+    
+    <div class="frame-options">
+        <label class="switch">
+            <input type="checkbox" id="toggle-switch" onclick="toggleTheme()">
+            <span class="slider round"></span>
+        </label>
+        <span id="icon" class="material-symbols-outlined">dark_mode</span>
+
+        <div class="version">
+            <p>1.0</p>
+        </div>
+    </div>
+
+    <div class="frame-res">
+        <div class="res-card">
+            <span id="icon" class="material-symbols-outlined">
+                <p>Width</p>
+                width
+            </span>
+
+            <input type="number" id="resx">
+        </div>
+
+        <div class="res-card">
+            <span id="icon" class="material-symbols-outlined">
+                <p>Height</p>
+                height
+            </span>
+            <input type="text" id="resy">
+        </div>
+
+        <div class="res-card">
+            <span id="icon" class="material-symbols-outlined">
+                <p>Fps</p>
+                lock
+            </span>
+            <input type="text" id="fpslock">
+        </div>
+    </div>
+
+    <div class="frame-winmodes">
+        <span>
+            <span id="icon" class="material-symbols-outlined">fullscreen</span>
+            <input type="radio" name="winmode" id="0">
+            <p>Fullscreen</p>
+        </span>
+        
+        <span>
+            <span id="icon" class="material-symbols-outlined">open_in_new</span>
+            <input type="radio" name="winmode" id="1">
+            <p>Fullscreen Windowed</p>
+        </span>
+
+        <span>
+            <span id="icon" class="material-symbols-outlined">fullscreen_exit</span>
+            <input type="radio" name="winmode" id="2">
+            <p>Windowed</p>
+        </span>
+    </div>
+
+    <div class="frame-misc">
+        <label class="switch">
+            <input type="checkbox" id="switch-misc">
+            <span class="slider round"></span>
+        </label>
+        <p>Exclusive Fullscreen</p>
+    </div>
+
+    <div class="frame-apply">
+        <button id="applybtn" onclick="apply()">APPLY</button>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>

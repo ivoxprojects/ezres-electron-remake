@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+/*#region Options*/
+.frame-options {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#icon {
+    margin-left: 5px;
+    user-select: none;
+}
+
+.version {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    height: 20px;
+}
+
+.version p {
+    font-size: 20px;
+    user-select: none;
+}
+/*#endregion */
+
+
+/*#region Resolutions*/
+.frame-res {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.res-card {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.res-card input {
+    width: 80px;
+    text-align: center;
+    font-size: 16px;
+    margin: 0;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    padding: 3px;
+}
+
+.res-card p {
+    font-size: 20px;
+    user-select: none;
+    margin: 0;
+    padding-top: 2px;
+    padding-bottom: 10px;
+}
+
+.res-card span {
+    display: flex;
+}
+/*#endregion*/
+
+
+/*#region Window Modes*/
+.frame-winmodes {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.frame-winmodes span {
+    display: flex;
+    align-items: center;
+}
+
+.frame-winmodes input {
+    margin: 5px;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.frame-winmodes p {
+    font-size: 20px;
+    user-select: none;
+    margin: 5px;
+}
+/*#endregion*/
+
+
+/*#region Misc*/
+.frame-misc {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.frame-misc input {
+    margin: 0;
+}
+
+.frame-misc p {
+    margin: 0;
+    margin-left: 5px;
+    font-size: 20px;
+}
+/*#endregion*/
+
+
+.frame-apply {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 5px;
+    height: 50px;
+}
+
+.frame-apply button {
+    transition: background .1s ease;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    background: #ffffff;
+    border: none;
+    border-radius: 5px;
+}
+
+.frame-apply button:hover {
+    transition: background .1s ease;
+    background: #a8a8a8;
+}
+
+.frame-apply button:active {
+    background: #6d6d6d;
+}

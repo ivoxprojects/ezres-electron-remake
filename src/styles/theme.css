@@ -1,0 +1,45 @@
+:root {
+    --background-color: none;
+    --placeholder-color: none;
+    --text-color: none;
+}
+
+body {
+    transition: background .2s ease-in-out;
+    background: var(--background-color);
+}
+
+.frame-options {
+    transition: background .2s ease-in-out;
+    background: var(--placeholder-color);
+}
+
+#icon {
+    transition: color .2s ease-in-out;
+    color: var(--text-color);
+}
+
+p {
+    transition: color .2s ease-in-out;
+    color: var(--text-color);
+}
+
+.frame-res {
+    transition: background .2s ease-in-out;
+    background: var(--placeholder-color);
+}
+
+.frame-winmodes {
+    transition: background .2s ease-in-out;
+    background: var(--placeholder-color);
+}
+
+.frame-misc {
+    transition: background .2s ease-in-out;
+    background: var(--placeholder-color);
+}
+
+.frame-apply {
+    transition: background .2s ease-in-out;
+    background: var(--placeholder-color);
+}
